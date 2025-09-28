@@ -17,9 +17,7 @@ document.getElementById('verificationForm').addEventListener('submit', function(
     const internCertificateMap = {
         // Format: "INTERN_ID": "GOOGLE_DRIVE_LINK_FOR_CERTIFICATE"
         "INTERN202502": "https://drive.google.com/file/d/1HKn-hYQc9_41kskCl9Pn4bsTyE6c1aX0/view?usp=sharing", // Example Link
-        "HT2025002": "https://drive.google.com/uc?export=download&id=CERT_ID_2", // Example Link
-        "HT2025003": "https://drive.google.com/uc?export=download&id=CERT_ID_3",
-        "INTERN202503": "https://drive.google.com/uc?export=download&id=YOUR_ACTUAL_CERT_ID_HERE",
+       
         // Note: Google Drive ke direct download link use karne se user file turant download kar payega.
     };
 
@@ -55,4 +53,5 @@ function showMessage(message, type) {
     messageArea.innerHTML = message;
     messageArea.style.display = 'block';
     messageArea.classList.add(type);
+
 }
