@@ -1,0 +1,155 @@
+/* General Styling & Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Hafor Tech Colors */
+:root {
+    --primary-color: #1a73e8; /* Deep Blue */
+    --accent-color: #00bcd4; /* Teal/Cyan */
+    --text-dark: #3c4043;
+    --success-bg: #e6ffed;
+    --success-text: #007d3c;
+    --error-bg: #ffe6e6;
+    --error-text: #cc0000;
+}
+
+/* Header */
+.header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* Container and Card */
+.container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.card h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-weight: 600;
+}
+
+/* Form Styling */
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: var(--accent-color);
+    outline: none;
+}
+
+/* Button */
+#verifyButton {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+#verifyButton:hover {
+    background-color: #155bb5;
+}
+
+#verifyButton:active {
+    transform: translateY(1px);
+}
+
+/* Message Area */
+.message-area {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    display: none; /* Initially hidden */
+}
+
+.message-area.success {
+    background-color: var(--success-bg);
+    color: var(--success-text);
+    border: 1px solid #a8e6a8;
+}
+
+.message-area.error {
+    background-color: var(--error-bg);
+    color: var(--error-text);
+    border: 1px solid #ffaaaa;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--text-dark);
+    color: #ccc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .header {
+        padding: 15px 20px;
+    }
+    .card {
+        padding: 25px;
+    }
+    .container {
+        padding: 10px;
+    }
+}

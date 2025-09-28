@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafor Tech - Certificate Verification</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">Hafor Tech</div>
+    <h1>Certificate Verification Portal</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Verify Your Internship Completion</h2>
+        <p>Enter your details below to instantly access your certificate.</p>
+
+        <form id="verificationForm">
+            <div class="input-group">
+                <label for="internName">Full Name</label>
+                <input type="text" id="internName" required placeholder="E.g., Ankit Sharma">
+            </div>
+
+            <div class="input-group">
+                <label for="internId">Intern ID</label>
+                <input type="text" id="internId" required placeholder="E.g., HT202502">
+            </div>
+
+            <div class="input-group">
+                <label for="completionDate">Completion Date</label>
+                <input type="date" id="completionDate" required>
+            </div>
+
+            <button type="submit" id="verifyButton">Verify & Download Certificate</button>
+        </form>
+
+        <div id="message" class="message-area"></div>
+    </div>
+</div>
+
+<footer class="footer">
+    &copy; 2024 Hafor Tech. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
