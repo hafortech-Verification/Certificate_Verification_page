@@ -16,7 +16,7 @@ document.getElementById('verificationForm').addEventListener('submit', function(
     // **** YAHAN PAR APNE INTERNS KI DETAILS DAALEIN ****
     const internCertificateMap = {
         // Format: "INTERN_ID": "GOOGLE_DRIVE_LINK_FOR_CERTIFICATE"
-        "INTERN202506": "https://drive.google.com/file/d/1HKn-hYQc9_41kskCl9Pn4bsTyE6c1aX0/view?usp=sharing", // Example Link
+        "INTERN202502": "https://drive.google.com/file/d/1iBx7J9e7JJEI1Bhq-jOVZKdOWL36NQ3m/view?usp=sharing", // Example Link
        
         // Note: Google Drive ke direct download link use karne se user file turant download kar payega.
     };
@@ -55,4 +55,5 @@ function showMessage(message, type) {
     messageArea.classList.add(type);
 
 }
+
 
