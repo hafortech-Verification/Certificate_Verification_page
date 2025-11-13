@@ -19,7 +19,8 @@ document.getElementById('verificationForm').addEventListener('submit', function(
         "INTERN202502": "https://drive.google.com/file/d/1iBx7J9e7JJEI1Bhq-jOVZKdOWL36NQ3m/view?usp=sharing",
         "INTERN202525": "https://drive.google.com/file/d/19xu7Btr_YCSVXwyye2LtZYk1mt9VY1vU/view?usp=sharing",
         "INTERN202581": "https://drive.google.com/file/d/1PSJOusIjRD3kYUbNq59oOcwVSxhC0adz/view?usp=sharing",
-        "INTERN202582": "https://drive.google.com/file/d/1XSffomJtgykIfGehA8IugFDiyvqCwlYN/view?usp=sharing",// Example Link
+        "INTERN202582": "https://drive.google.com/file/d/1XSffomJtgykIfGehA8IugFDiyvqCwlYN/view?usp=sharing",
+        "INTERN202580": "https://drive.google.com/file/d/11WvOSBAgyanq_OfFC2-reldkiLFGgsTl/view?usp=sharing",// Example Link
        
         // Note: Google Drive ke direct download link use karne se user file turant download kar payega.
     };
@@ -58,6 +59,7 @@ function showMessage(message, type) {
     messageArea.classList.add(type);
 
 }
+
 
 
 
